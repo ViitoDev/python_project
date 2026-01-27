@@ -1,4 +1,4 @@
-phrase = input("Enter your phrase: \n")
-words = phrase.split()
-print(len(words))
-print(words)
+def counter_words(phrase):
+    words = phrase.split()
+    print(words)
+    return len(words)
